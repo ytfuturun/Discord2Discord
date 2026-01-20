@@ -1,10 +1,11 @@
 # Discord token [string]
-TOKEN = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+import os
+TOKEN = os.getenv("TOKEN")
 # Server id [int]
-SERVER = 000000000000000000
+SERVER = 1454559369965338788
 # From channels [list<int>]
-FROM_CHANNELS = [000000000000000000, 000000000000000000]
+FROM_CHANNELS = [1461789650325733456]
 # To channel [int]
-TO_CHANNEL = 000000000000000000
+TO_CHANNEL = 1461846025860939987
 # whether to show Discord message and log on the terminal [False/True]
-Verbose = False
+Verbose = True
